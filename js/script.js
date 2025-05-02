@@ -21,7 +21,7 @@ function borrar(){
 }
   
 
-// Agregar el el teclado
+// Agregar el teclado
 document.addEventListener('keydown', function(event) {
     const tecla = event.key;
 
