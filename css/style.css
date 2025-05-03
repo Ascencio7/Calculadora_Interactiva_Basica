@@ -10,19 +10,20 @@ body{
 .calculadora{
     background-color: #222;
     padding: 21px;
-    border-radius: 20px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);;
+    border-radius: 40px;
+    box-shadow: 10px 15px rgba(0, 0, 0, 0.5);
 }
 
 #pantalla{
     width: 100%;
     height: 50px;
     font-size: 24px;
-    margin-bottom: 11px;
+    margin-bottom: 13px;
     text-align: right;
     padding: 10px;
     border: none;
     color: #ffffff;
+    border-radius: 20px;
 }
 
 .botones{
@@ -45,4 +46,14 @@ button{
 button:hover{
     background-color: #666;
     transform: scale(1.09);
+}
+
+input[type="text"]{
+    background-color: #222;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 24px;
+    text-align: right;
 }

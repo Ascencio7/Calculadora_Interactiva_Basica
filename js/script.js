@@ -9,7 +9,8 @@ function agregar(valor){
 // creo la funcion para calcular
 function calcular(){
     try{
-        pantalla.value = eval(pantalla.value);
+        let resultado = eval(pantalla.value);
+        pantalla.value = Number(resultado).toFixed(2); // Se limita a 2 decimales
     }catch{
         pantalla.value = 'Error';
     }
